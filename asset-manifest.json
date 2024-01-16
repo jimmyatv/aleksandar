@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/aleksandar/static/css/main.1a75d5a5.css",
+    "main.js": "/aleksandar/static/js/main.0cf19060.js",
+    "static/js/787.c8db72a7.chunk.js": "/aleksandar/static/js/787.c8db72a7.chunk.js",
+    "index.html": "/aleksandar/index.html",
+    "main.1a75d5a5.css.map": "/aleksandar/static/css/main.1a75d5a5.css.map",
+    "main.0cf19060.js.map": "/aleksandar/static/js/main.0cf19060.js.map",
+    "787.c8db72a7.chunk.js.map": "/aleksandar/static/js/787.c8db72a7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a75d5a5.css",
+    "static/js/main.0cf19060.js"
+  ]
+}
