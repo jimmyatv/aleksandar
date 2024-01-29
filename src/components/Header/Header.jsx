@@ -22,7 +22,7 @@ const Header = () => {
 
       <div className={`flexCenter innerWidth ${css.container}`}>
         <div className={css.name}>
-          Alex
+          AR
         </div>
 
         <ul
