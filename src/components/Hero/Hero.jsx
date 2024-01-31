@@ -1,6 +1,6 @@
 import React from 'react'
 import css from './Hero.module.scss';
-import Jimmy from '../../assets/mainPhoto1.png';
+import Jimmy from '../../assets/mainPhoto2.png';
 import { FaReact } from "react-icons/fa";
 import { motion } from 'framer-motion';
 import { fadeIn, slideIn, staggerContainer } from '../../utils/motion'
