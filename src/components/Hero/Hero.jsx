@@ -1,5 +1,5 @@
 import React from 'react'
-import css from '../Hero/Hero.module.scss';
+import css from './Hero.module.scss';
 import Jimmy from '../../assets/mainPhoto1.png';
 import { FaReact } from "react-icons/fa";
 import { motion } from 'framer-motion';

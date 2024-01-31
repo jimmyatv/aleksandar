@@ -3,28 +3,29 @@ import { CiMobile1 } from "react-icons/ci";
 import { MdWorkspacesOutline } from "react-icons/md";
 export const projectExperience = [
   {
-    name: "Website Design",
-    projects: 76,
+    name: "Number of projects in my current company",
+    projects: 36,
     icon: HiOutlineDesktopComputer,
     bg: "#286F6C",
   },
   {
-    name: "Mobile App Design",
-    projects: 63,
+    name: "Number of clients I have worked with",
+    projects: 69,
     icon: CiMobile1,
     bg: "#EEC048",
   },
   {
     name: "Brand Identity",
-    projects: 47,
+    projects: 27,
     icon: MdWorkspacesOutline,
     bg: "#F26440",
   },
 ];
 
 export const WhatDoIHelp = [
-  "I will help you with finging a solution and solve your problem, We use process design to create digital products. Besides that also help their business.",
-  "We use process design to create digital products. Besides that also help their business",
+  "As a frontend developer, I can contribute to your team by crafting visually appealing and responsive user interfaces. My expertise in React, JavaScript, and SCSS ensures that I can create seamless and interactive web experiences.",
+  
+  "We leverage frontend development to create digital products, ensuring not only a visually appealing interface but also contributing to the transformation of businesses",
 ];
 
 export const workExp = [
