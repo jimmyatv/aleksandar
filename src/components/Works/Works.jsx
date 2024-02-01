@@ -43,9 +43,9 @@ const Works = () => {
                         <motion.div
                             variants={fadeIn('down', 'twin', 2, 1.5)}
                             className={css.line}></motion.div>
-                        <div><IoCodeSlash /></div>
-                        <div><FaAmazon /></div>
-                        <div><MdOutlineAccountTree /></div>
+                        <div><div className={css.circle}><IoCodeSlash /></div></div>
+                        <div><div className={css.circle}><FaAmazon /></div></div>
+                        <div><div className={css.circle}><MdOutlineAccountTree /></div></div>
                     </motion.div>
 
                 </div>
