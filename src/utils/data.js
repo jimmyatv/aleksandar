@@ -30,25 +30,25 @@ export const WhatDoIHelp = [
 
 export const workExp = [
   {
-    place: "Self-Employed, Brisbane",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Visual Designer",
+    place: "Selltico, Serbia",
+    tenure: "Feb 2023 - Present",
+    role: "Frontend developer",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "I'm a Frontend Developer based in Serbia, that loves to code and build products with a delightful user experience. I love working in between product and developer experience. Some things that make me excited are JavaScript, React.",
   },
   {
-    place: "New Man Services",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "UI/UX Designer",
+    place: "Amazon, USA",
+    tenure: "Apr 2018 - Present",
+    role: "Amazon Associate",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "Since 2018, I've been deeply engaged in affiliate marketing as an Amazon Associate, consistently refining and optimizing strategies for sustained success. My active involvement in the program continues to this day.",
   },
   {
-    place: "Global Solution",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Sr. Product Designer",
+    place: "Yura Corporation, Serbia",
+    tenure: "Apr 2018 - Feb 2023",
+    role: "EDI Key User",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "I was EDI Key User responsible for monitoring IDOCs, and solving EDI problems under my responsibility. I was also first line of support for EDI related issues in Logistics and first point of escalation for problems above my authorization.",
   },
 ];
 
