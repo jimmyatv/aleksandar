@@ -1,0 +1,67 @@
+@import '../../styles/contants.scss';
+
+.wrapper {
+    background: #fff;
+    overflow: hidden;
+
+    .container {
+        flex-direction: column;
+        gap: 2rem;
+
+        .heading {
+            width: 100%;
+            justify-content: space-between;
+            align-items: flex-end;
+            flex-wrap: wrap;
+
+            svg {
+                color: rgb(220, 46, 46);
+                font-size: 1.2rem;
+            }
+
+        }
+
+        .cta {
+            @media (max-width: $sm) {
+                justify-content: center;
+            }
+            width: 100%;
+            gap: 1rem;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 2rem;
+
+            div {
+                transition: .3s linear;
+                overflow: hidden;
+                border-radius: 20px;
+                box-shadow: 0px 21px 13px rgba(0, 0, 0, 13%);
+
+
+
+                &:hover img{
+                    transform: scale(1.1);
+                    
+                }
+            }
+            
+            img {
+                @media (max-width: $sm) {
+                    width: 100% !important;
+                }
+                max-width: 25rem;
+                max-height: 18rem;
+                transition: .3s linear;
+
+            }
+
+            p {
+                font-size: 1.2rem;
+                font-style: italic;
+                margin-top: 1.2rem;
+                text-align: center;
+            }
+        }
+    }
+}
