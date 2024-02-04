@@ -100,10 +100,10 @@
               -webkit-transition: transform .2s ease-in-out;
             }
 
-            &:hover span:nth-child(2) {
-                transform: translateX(15px);
-                background: #800080;
-            }
+            // &:hover span:nth-child(2) {
+            //     transform: translateX(15px);
+            //     background: #800080;
+            // }
           
             &.is-active span {
               background-color: #800080;
