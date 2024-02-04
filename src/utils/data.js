@@ -1,6 +1,7 @@
 import { HiOutlineDesktopComputer } from "react-icons/hi";
 import { CiMobile1 } from "react-icons/ci";
 import { MdWorkspacesOutline } from "react-icons/md";
+import about1 from '../assets/about1.jpg';
 export const projectExperience = [
   {
     name: "Number of projects in my current company",
@@ -54,73 +55,34 @@ export const workExp = [
 
 export const comments = [
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: "Frontend Developer",
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
+      "I'm a Frontend Developer based in Serbia, that loves to code and build products with a delightful user experience. I love working in between product and developer experience.",
+    img: about1,
   },
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: "Aleksandar Jimmy TEST",
     comment:
       "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people1.png",
+    img: about1,
   },
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: "Aleksandar Jimmy TEST",
     comment:
       "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
+    img: about1,
   },
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: "Aleksandar Jimmy TEST",
     comment:
       "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people1.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people1.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people1.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
+    img: about1,
   },
 ];
 
 export const sliderSettings = {
   dots: true,
-  infinite: false,
+  infinite: true,
   speed: 1000,
   slidesToShow: 3,
   slidesToScroll: 1,
