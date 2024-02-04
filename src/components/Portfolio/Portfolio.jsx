@@ -13,7 +13,7 @@ const Portfolio = () => {
         variants={staggerChildren}
         initial='hidden'
         whileInView='show'
-        viewport={{once: false, amount: 0.25}}
+        viewport={{once: false, amount: 0.10}}
         className={`paddings ${css.wrapper}`}>
             <div className={`innerWidth flexCenter ${css.container}`}>
                 <div className={css.heading}>

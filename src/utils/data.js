@@ -34,7 +34,7 @@ export const workExp = [
     tenure: "Feb 2023 - Present",
     role: "Frontend developer",
     detail:
-      "I'm a Frontend Developer based in Serbia, that loves to code and build products with a delightful user experience. I love working in between product and developer experience. Some things that make me excited are JavaScript, React.",
+      "I'm a Frontend Developer based in Serbia, that loves to code and build products with a delightful user experience. Some things that make me excited are JavaScript, React.",
   },
   {
     place: "Amazon, USA",
@@ -44,11 +44,11 @@ export const workExp = [
       "Since 2018, I've been deeply engaged in affiliate marketing as an Amazon Associate, consistently refining and optimizing strategies for sustained success. My active involvement in the program continues to this day.",
   },
   {
-    place: "Yura Corporation, Serbia",
+    place: "Upwork, USA",
     tenure: "Apr 2018 - Feb 2023",
-    role: "EDI Key User",
+    role: "Fronend developer",
     detail:
-      "I was EDI Key User responsible for monitoring IDOCs, and solving EDI problems under my responsibility. I was also first line of support for EDI related issues in Logistics and first point of escalation for problems above my authorization.",
+      "Freelance experience with upwork. Contributed to high-profile projects, providing expertise in frontend development, with a specific focus on React and JavaScript technologies.",
   },
 ];
 

@@ -77,12 +77,63 @@
             }
         }
 
-        .menuIcon {
+        .burger {
+            display: block;
+            position: relative;
+            margin-top: 8px;
+            cursor: pointer;
+            user-select: none;
+            appearance: none;
+            border: none;
+            outline: none;
+            background: none;
+            z-index: 100;
             display: none;
-            
+          
+            span {
+              margin-bottom: 5px;
+              width: 35px;
+              height: 2px;
+              background-color: black;
+              display: block;
+              transition: transform .2s ease-in-out;
+              -webkit-transition: transform .2s ease-in-out;
+            }
+
+            &:hover span:nth-child(2) {
+                transform: translateX(15px);
+                background: #800080;
+            }
+          
+            &.is-active span {
+              background-color: #800080;
+              transition: transform .2s ease-in-out;
+            }
+          
+            &.is-active:hover span {
+              background-color: #800080;
+            }
+          
+            &.is-active span:nth-child(1) {
+              transform: rotate(-135deg) translate(-3px, -7px);
+            }
+          
+            &.is-active span:nth-child(2) {
+              transform: translateX(-15px);
+              opacity: 0;
+            }
+          
+            &.is-active span:nth-child(3) {
+              transform: rotate(135deg) translate(-3px, 7px);
+            }
+
             @media (max-width: $sm), (max-width: $md) {
                 display: block;
             }
-        }
+
+
+          }
+          
+        
     }
 }

@@ -10,7 +10,7 @@ const Experties = () => {
         variants={staggerContainer}
         initial='hidden'
         whileInView='show'
-        viewport={{once: false, amount: 0.25}}
+        viewport={{once: false, amount: 0.15}}
         
         className={css.wrapper}>
             <div className={`paddings yPaddings flexCenter innerWidth ${css.container}`}>

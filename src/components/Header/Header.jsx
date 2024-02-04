@@ -17,7 +17,7 @@ const Header = () => {
       initial='hidden'
       whileInView='show'
       variants={headerVariants}
-      viewport={{ once: false, amount: 0.25 }}
+      viewport={{ once: false, amount: 0.15 }}
       className={`paddings ${css.wrapper}`}>
 
       <div className={`flexCenter innerWidth ${css.container}`}>
@@ -26,8 +26,8 @@ const Header = () => {
         </div>
 
         <ul
-        style={getMenuStyles(menuOpened)}
-        className={`flexCenter ${css.menu}`}>
+          style={getMenuStyles(menuOpened)}
+          className={`flexCenter ${css.menu}`}>
           <li><a href="/">Services</a></li>
           <li><a href="/">Experience</a></li>
           <li><a href="/">Portfolio</a></li>
@@ -37,10 +37,12 @@ const Header = () => {
             <MdPhoneInTalk size={'40px'} />
           </li>
         </ul>
-{/* Only for media screen */}
-        <div onClick={handledMenu} className={css.menuIcon}>
-          <BiMenuAltRight size={'40px'} />
-        </div>
+        {/* Only for media screen */}
+        <button onClick={handledMenu} className={`${css.burger} ${menuOpened ? css['is-active'] : ''}`}>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
       </div>
     </motion.div>
   )
