@@ -14,12 +14,12 @@ const AboutMe = () => {
             viewport={{ once: false, amount: 0.20 }}
             className={`paddings ${css.wrapper}`}>
 
-
+            <a className="anchor" id="aboutMe"></a>
             <motion.div
             variants={footerVariants}
             className={`yPaddings innerWidth ${css.container}`}>
                 <div className={`flexCenter ${css.heading}`}>
-                    <span className="primaryText">Something about me!</span>
+                    <span className="primaryText">Some things about me!</span>
                 </div>
 
                 {/* carousel */}
@@ -30,7 +30,7 @@ const AboutMe = () => {
                     >
                         {comments.map((comment, idx) => {
                             return (
-                                <div className={`flexCenter ${css.comment}`}>
+                                <div className={`flexCenter ${css.comment}`} key={idx}>
                                     <img src={comment.img} alt="" />
                                     <h4 style={{marginTop:'1.5rem'}}>{comment.name}</h4>
                                     <div className={css.line}></div>

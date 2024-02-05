@@ -5,6 +5,7 @@ import Experties from './components/Experties/Experties';
 import Works from './components/Works/Works';
 import Portfolio from './components/Portfolio/Portfolio';
 import AboutMe from './components/AboutMe/AboutMe';
+import Footer from './components/Footer/Footer';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Experties />
       <Works />
       <Portfolio />
+      <Footer />
     </div>
   );
 }

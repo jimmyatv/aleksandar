@@ -16,6 +16,7 @@ const Works = () => {
             viewport={{ once: false, amount: 0.15 }}
             className={`paddings  ${css.wrapper}`}>
 
+            <a className="anchor" id="experience"></a>
             <div className={`flexCenter innerWidth ${css.container}`}>
                 <span className="primaryText yPaddings">
                     My work Experience

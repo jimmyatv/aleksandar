@@ -4,7 +4,7 @@ import { MdWorkspacesOutline } from "react-icons/md";
 import about1 from '../assets/about1.jpg';
 export const projectExperience = [
   {
-    name: "Number of projects in my current company",
+    name: "Number of projects",
     projects: 36,
     icon: HiOutlineDesktopComputer,
     bg: "#286F6C",
