@@ -38,6 +38,39 @@
                 >* {
                     display: block;
                 }
+
+                .name {
+                    margin-top: 1.2rem;
+                    a {
+                        text-decoration: none;
+                        color: $primary;
+                        &:hover svg {
+                          transform: scale(1.1);
+                        }
+                      } svg {
+                        font-size: 2.3rem;
+                        margin-right: 1rem;
+                        transition: .1s linear;
+          
+                      }
+
+                      
+                        
+                }
+
+                @keyframes bounce {
+                            0%, 100% {
+                            transform: translateY(0);
+                            }
+                            50% {
+                            transform: translateY(-8px);
+                            }
+                        }
+
+                        a {
+                            display: inline-block;
+                            animation: bounce 2s infinite; 
+                        }
             }
         }
     }

@@ -23,6 +23,19 @@
             font-size: 1.5rem;
             font-weight: 500;
 
+            a {
+              text-decoration: none;
+              color: $primary;
+              &:hover svg {
+                transform: scale(1.1);
+              }
+            } svg {
+              font-size: 2rem;
+              margin-right: 1rem;
+              transition: .1s linear;
+
+            }
+
         }
 
         .menu {
@@ -59,10 +72,18 @@
                 a {
                     color: inherit;
                     text-decoration: none;
+                    transition: .2s linear;
 
                 }
                 &:hover {
+
+                    @media (max-width: $sm), (max-width: $md) {
+                      transform: translateY(0);
+                    }
                     color: $secondary;
+                    transform: translateY(-6px);
+                    transition: .2s linear;
+
                 }
             }
 

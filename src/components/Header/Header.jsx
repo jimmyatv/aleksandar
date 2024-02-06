@@ -4,6 +4,9 @@ import { MdPhoneInTalk } from "react-icons/md";
 import { motion } from 'framer-motion';
 import { getMenuStyles, headerVariants } from '../../utils/motion';
 import useHeaderShadow from "../../hooks/useHeaderShadow";
+import { FaLinkedinIn } from "react-icons/fa";
+import { FiGithub } from "react-icons/fi";
+import { GrMailOption } from "react-icons/gr";
 
 const Header = () => {
   const [menuOpened, setMenuOpened] = useState(false);
@@ -26,6 +29,12 @@ const Header = () => {
     setMenuOpened(!menuOpened);
   };
 
+  const handleMenuItemClick = () => {
+    if (window.innerWidth <= 768) { 
+      setMenuOpened(false);
+    }
+  };
+
   useEffect(() => {
     document.addEventListener("mousedown", handleClickOutside);
 
@@ -44,20 +53,22 @@ const Header = () => {
 
       <div className={`flexCenter innerWidth ${css.container}`}>
         <div className={css.name}>
-          AR
+          <a target='_blank' rel="noreferrer" href="https://www.linkedin.com/in/aleksandar-rasic-jimmy/"><FaLinkedinIn /></a>
+          <a target='_blank' rel="noreferrer" href="https://github.com/jimmyatv"><FiGithub /></a>
+          <a target='_blank' rel="noreferrer" href="mailto:rasic.alexandar@gmail.com"><GrMailOption /></a>
         </div>
 
         <ul
           ref={menuRef}
           style={getMenuStyles(menuOpened)}
           className={`flexCenter ${css.menu}`}>
-          <li><a href="#aboutMe">About me</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#portfolio">Projects</a></li>
+          <li><a href="#aboutMe" onClick={handleMenuItemClick}>About me</a></li>
+          <li><a href="#services" onClick={handleMenuItemClick}>Services</a></li>
+          <li><a href="#experience" onClick={handleMenuItemClick}>Experience</a></li>
+          <li><a href="#portfolio" onClick={handleMenuItemClick}>Projects</a></li>
           <li className={`flexCenter ${css.phone}`}>
             <p>+381606546008</p>
-            <MdPhoneInTalk size={'40px'} />
+            <a href="tel:+381606546008"><MdPhoneInTalk size={'40px'} /></a>
           </li>
         </ul>
         {/* Only for media screen */}

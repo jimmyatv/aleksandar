@@ -36,7 +36,7 @@ const Portfolio = () => {
                             variants={fadeIn('up', 'easeOut', 0.5, 0.6)}
                         >
                             <a target='_blank' href="https://jimmyatv.github.io/myBabySpa"><img src={project1} alt="" /></a>
-                            <p>React project</p>
+                            <p>Personal project in REACT</p>
                         </motion.div>
 
                         <motion.div

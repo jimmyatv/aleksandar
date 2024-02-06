@@ -1,20 +1,33 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import css from './Experties.module.scss';
 import { projectExperience, WhatDoIHelp } from '../../utils/data';
 import { motion } from 'framer-motion';
 import { fadeIn, footerVariants, staggerContainer, textVariant } from '../../utils/motion';
+import { useInView } from 'react-intersection-observer'; // Dodajemo hook za praćenje vidljivosti
+import NumberCounter from 'number-counter';
 
 const Experties = () => {
+    const [isVisible, setIsVisible] = useState(false);
+    const { ref, inView } = useInView({
+        threshold: 0.5, // Pratite vidljivost kada je više od 50% sekcije vidljivo
+        triggerOnce: true, // Pokretanje samo jednom kada postane vidljivo
+    });
+
+    useEffect(() => {
+        if (inView) {
+            setIsVisible(true);
+        }
+    }, [inView]);
+
     return (
         <motion.section
             variants={staggerContainer}
             initial='hidden'
             whileInView='show'
             viewport={{ once: false, amount: 0.15 }}
-
             className={css.wrapper}>
             <a className="anchor" id="services"></a>
-            <div className={`paddings yPaddings flexCenter innerWidth ${css.container}`}>
+            <div className={`paddings yPaddings flexCenter innerWidth ${css.container}`} ref={ref}>
                 <div className={css.leftSide}>
                     <motion.span
                         variants={footerVariants}
@@ -57,11 +70,19 @@ const Experties = () => {
 
                     <div className={`flexCenter ${css.stats}`}>
                         <div className={`flexCenter ${css.stat}`}>
-                            <span className='primaryText'>285+</span>
-                            <span className='secondaryText'>Projects completed</span>
+                            {isVisible && (
+                                <span className='primaryText'>
+                                    <NumberCounter end={300} start={100} delay='4' preFix='+' />
+                                </span>
+                            )}
+                            <span className='secondaryText'>Projects and tasks completed</span>
                         </div>
                         <div className={`flexCenter ${css.stat}`}>
-                            <span className='primaryText'>120+</span>
+                            {isVisible && (
+                                <span className='primaryText'>
+                                    <NumberCounter end={50} start={10} delay='4' preFix='+' />
+                                </span>
+                            )}
                             <span className='secondaryText'>Happy clients</span>
                         </div>
                     </div>

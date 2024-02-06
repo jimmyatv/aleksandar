@@ -48,11 +48,11 @@ export const workExp = [
       "Since 2018, I've been deeply engaged in affiliate marketing as an Amazon Associate, consistently refining and optimizing strategies for sustained success. My active involvement in the program continues to this day.",
   },
   {
-    place: "Upwork, USA",
+    place: "Yura corporation, Serbia",
     tenure: "Apr 2018 - Feb 2023",
-    role: "Fronend developer",
+    role: "EDI Key user",
     detail:
-      "Freelance experience with upwork. Contributed to high-profile projects, providing expertise in frontend development, with a specific focus on React and JavaScript technologies.",
+      "I was EDI Key User responsible for monitoring IDOCs, and solving EDI problems under my responsibility. I was also first line of support for EDI related issues in Logistics.",
   },
 ];
 
