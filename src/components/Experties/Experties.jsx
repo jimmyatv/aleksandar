@@ -9,8 +9,8 @@ import NumberCounter from 'number-counter';
 const Experties = () => {
     const [isVisible, setIsVisible] = useState(false);
     const { ref, inView } = useInView({
-        threshold: 0.5, // Pratite vidljivost kada je više od 50% sekcije vidljivo
-        triggerOnce: true, // Pokretanje samo jednom kada postane vidljivo
+        threshold: 0.7, // Pratite vidljivost kada je više od 50% sekcije vidljivo
+        triggerOnce: false, // Pokretanje samo jednom kada postane vidljivo
     });
 
     useEffect(() => {
@@ -72,7 +72,7 @@ const Experties = () => {
                         <div className={`flexCenter ${css.stat}`}>
                             {isVisible && (
                                 <span className='primaryText'>
-                                    <NumberCounter end={300} start={100} delay='4' preFix='+' />
+                                    <NumberCounter end={300} start={100} delay='5' preFix='+' />
                                 </span>
                             )}
                             <span className='secondaryText'>Projects and tasks completed</span>
@@ -80,7 +80,7 @@ const Experties = () => {
                         <div className={`flexCenter ${css.stat}`}>
                             {isVisible && (
                                 <span className='primaryText'>
-                                    <NumberCounter end={50} start={10} delay='4' preFix='+' />
+                                    <NumberCounter end={50} start={10} delay='5' preFix='+' />
                                 </span>
                             )}
                             <span className='secondaryText'>Happy clients</span>

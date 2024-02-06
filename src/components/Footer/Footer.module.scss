@@ -33,6 +33,11 @@
             flex: 1;
 
             .info {
+
+                p {
+                    font-size: 1.5rem;
+                    font-weight: bold;
+                }
                 margin-bottom: 1rem;
 
                 >* {
