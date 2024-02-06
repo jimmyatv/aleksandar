@@ -32,7 +32,7 @@ const Experties = () => {
 
                                 <div>
                                     <span>{exp.name}</span>
-                                    <span>{exp.projects} Projects</span>
+                                    <span>{exp.projects}</span>
                                 </div>
                             </motion.div>
                         )

@@ -2,10 +2,13 @@ import { HiOutlineDesktopComputer } from "react-icons/hi";
 import { CiMobile1 } from "react-icons/ci";
 import { MdWorkspacesOutline } from "react-icons/md";
 import about1 from '../assets/about1.jpg';
+import about2 from '../assets/about2.jpg';
+import about3 from '../assets/about3.jpg';
+import about4 from '../assets/about4.jpg';
 export const projectExperience = [
   {
-    name: "Number of projects",
-    projects: 36,
+    name: "Number of projects and tasks together",
+    projects: 336,
     icon: HiOutlineDesktopComputer,
     bg: "#286F6C",
   },
@@ -61,22 +64,22 @@ export const comments = [
     img: about1,
   },
   {
-    name: "Aleksandar Jimmy TEST",
+    name: "UI/UX",
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: about1,
+      "Crafting intuitive digital experiences with meticulous attention to detail. Bringing ideas to life through visually stunning and user-friendly designs.",
+    img: about2,
   },
   {
-    name: "Aleksandar Jimmy TEST",
+    name: "Cycling",
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: about1,
+      "Exploring the world with a passion for pedaling. Turning routes into exhilarating journeys, fueled by adventure and determination.",
+    img: about3,
   },
   {
-    name: "Aleksandar Jimmy TEST",
+    name: "Creative Solutions",
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: about1,
+      "Innovative, intuitive, and imaginative. Constructing digital connections that swiftly and reliably link businesses with their customers.",
+    img: about4,
   },
 ];
 
