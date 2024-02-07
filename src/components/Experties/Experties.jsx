@@ -9,8 +9,8 @@ import NumberCounter from 'number-counter';
 const Experties = () => {
     const [isVisible, setIsVisible] = useState(false);
     const { ref, inView } = useInView({
-        threshold: 0.3, // Pratite vidljivost kada je više od 50% sekcije vidljivo
-        triggerOnce: true, // Pokretanje samo jednom kada postane vidljivo
+        threshold: 0.3, 
+        triggerOnce: true, 
     });
 
     useEffect(() => {
@@ -27,7 +27,7 @@ const Experties = () => {
             viewport={{ once: false, amount: 0.15 }}
             className={css.wrapper}>
             <a className="anchor" id="services"></a>
-            <div className={`paddings yPaddings flexCenter innerWidth ${css.container}`} ref={ref}>
+            <div className={`paddings yPaddings flexCenter innerWidth ${css.container}`}>
                 <div className={css.leftSide}>
                     <motion.span
                         variants={footerVariants}
@@ -68,7 +68,7 @@ const Experties = () => {
                         })}
                     </p>
 
-                    <div className={`flexCenter ${css.stats}`}>
+                    <div className={`flexCenter ${css.stats}`} ref={ref}>
                         <div className={`flexCenter ${css.stat}`}>
                             {isVisible && (
                                 <span className='primaryText'>

@@ -63,11 +63,13 @@
 
             .stats {
                 justify-content: flex-start;
-                gap: 4rem;
+                gap: 2rem;
 
                 .stat {
+                    padding: 0 1rem;
                     flex-direction: column;
                     justify-content: flex-start;
+                    align-items: start;
                 }
             }
         }
