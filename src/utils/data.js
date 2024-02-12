@@ -7,7 +7,7 @@ import about3 from '../assets/about3.jpg';
 import about4 from '../assets/about4.jpg';
 export const projectExperience = [
   {
-    name: "Number of projects and tasks together",
+    name: "Number of projects and tasks",
     projects: 336,
     icon: HiOutlineDesktopComputer,
     bg: "#286F6C",
@@ -48,11 +48,11 @@ export const workExp = [
       "Since 2018, I've been deeply engaged in affiliate marketing as an Amazon Associate, consistently refining and optimizing strategies for sustained success. My active involvement in the program continues to this day.",
   },
   {
-    place: "Yura corporation, Serbia",
-    tenure: "Apr 2018 - Feb 2023",
-    role: "EDI Key user",
+    place: "Freelance, Cyprus",
+    tenure: "Apr 2019 - Feb 2023",
+    role: "React developer",
     detail:
-      "I was EDI Key User responsible for monitoring IDOCs, and solving EDI problems under my responsibility. I was also first line of support for EDI related issues in Logistics.",
+      "Since 2019, I have been working remotely as a freelance developer in Cyprus on a half-time basis, successfully completing projects and I have gained valuable experience.",
   },
 ];
 

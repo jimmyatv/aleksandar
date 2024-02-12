@@ -3,7 +3,7 @@ import css from './Experties.module.scss';
 import { projectExperience, WhatDoIHelp } from '../../utils/data';
 import { motion } from 'framer-motion';
 import { fadeIn, footerVariants, staggerContainer, textVariant } from '../../utils/motion';
-import { useInView } from 'react-intersection-observer'; // Dodajemo hook za praćenje vidljivosti
+import { useInView } from 'react-intersection-observer';
 import NumberCounter from 'number-counter';
 
 const Experties = () => {
@@ -71,7 +71,7 @@ const Experties = () => {
                     <div className={`flexCenter ${css.stats}`} ref={ref}>
                         <div className={`flexCenter ${css.stat}`}>
                             {isVisible && (
-                                <span className='primaryText'>
+                                <span>
                                     <NumberCounter end={300} start={100} delay='4' preFix='+' />
                                 </span>
                             )}
@@ -79,7 +79,7 @@ const Experties = () => {
                         </div>
                         <div className={`flexCenter ${css.stat}`}>
                             {isVisible && (
-                                <span className='primaryText'>
+                                <span>
                                     <NumberCounter end={50} start={10} delay='4' preFix='+' />
                                 </span>
                             )}
