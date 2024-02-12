@@ -34,11 +34,13 @@ const Footer = () => {
                 <div className={css.right}>
                     <div className={css.info}>
                         <span className="secondaryText">Information</span>
-                        <p>+381606546008 <MdOutlinePhoneInTalk /></p>
+                        <div className={css.callMe}>
+                            <a href="tel:+381606546008">+381606546008 <MdOutlinePhoneInTalk /></a>
+                        </div>
                         <div className={css.name}>
-                            <a target='_blank' rel="noreferrer" href="https://www.linkedin.com/in/aleksandar-rasic-jimmy/"><FaLinkedinIn /></a>
-                            <a target='_blank' rel="noreferrer" href="https://github.com/jimmyatv"><FiGithub /></a>
-                            <a target='_blank' rel="noreferrer" href="mailto:rasic.alexandar@gmail.com"><GrMailOption /></a>
+                            <a className={css.bounceSocials} target='_blank' rel="noreferrer" href="https://www.linkedin.com/in/aleksandar-rasic-jimmy/"><FaLinkedinIn /></a>
+                            <a className={css.bounceSocials} target='_blank' rel="noreferrer" href="https://github.com/jimmyatv"><FiGithub /></a>
+                            <a className={css.bounceSocials} target='_blank' rel="noreferrer" href="mailto:rasic.alexandar@gmail.com"><GrMailOption /></a>
                         </div>
                     </div>
 
