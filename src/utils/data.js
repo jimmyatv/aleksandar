@@ -35,7 +35,7 @@ export const projects = [
     img: project5
   },
   {
-    name: 'Vanila JS, grocery list',
+    name: 'Vanila JS & Pagination & local storage',
     url: 'https://jimmyatv.github.io/GroceryList',
     img: project6
   },
