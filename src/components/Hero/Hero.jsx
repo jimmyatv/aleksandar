@@ -2,6 +2,7 @@ import React from 'react'
 import css from './Hero.module.scss';
 import Jimmy from '../../assets/mainPhoto2.png';
 import { FaReact } from "react-icons/fa";
+import { RiVuejsFill } from "react-icons/ri";
 import { motion } from 'framer-motion';
 import { fadeIn, slideIn, staggerContainer } from '../../utils/motion'
 
@@ -26,19 +27,19 @@ const Hero = () => {
                     <motion.span
                         variants={fadeIn('left', 'tween', 0.4, 1)}
                     >
-                        Frontend developer <br />
-                        and I love what I do
+                        <strong>Talk is cheap. <br />
+                            Show me the code.</strong>
                     </motion.span>
                 </div>
 
 
                 {/* Main Photo */}
                 <motion.div
-                variants={fadeIn('up', 'tween', 0.3, 1)}
-                className={css.jimmy}>
+                    variants={fadeIn('up', 'tween', 0.3, 1)}
+                    className={css.jimmy}>
                     <motion.img
-                    variants={slideIn('up', 'tween', 0.5, 1.3)}
-                    src={Jimmy} alt="" />
+                        variants={slideIn('up', 'tween', 0.5, 1.3)}
+                        src={Jimmy} alt="" />
                 </motion.div>
 
                 {/* email */}
@@ -47,8 +48,8 @@ const Hero = () => {
                 {/* lower Elements */}
                 <div className={css.lowerElements}>
                     <motion.div
-                    variants={fadeIn('right', 'tween', 0.3, 1)}
-                    className={css.experiance}>
+                        variants={fadeIn('right', 'tween', 0.3, 1)}
+                        className={css.experiance}>
                         <div className='primaryText'>5</div>
                         <div className='secondaryText'>
                             <div>Years</div>
@@ -57,10 +58,13 @@ const Hero = () => {
                     </motion.div>
 
                     <motion.div
-                    variants={fadeIn('left', 'tween', 0.5, 1)}
-                    className={css.certificate}>
-                        <FaReact />
-                        <span>React coder</span>
+                        variants={fadeIn('left', 'tween', 0.5, 1)}
+                        className={css.certificate}>
+                        <div className={css.devIcons}>
+                            <span><FaReact /></span>
+                            <span> <RiVuejsFill /></span>
+                        </div>
+                        <span>React/Vue coder</span>
                         <span>Frontend developer</span>
                     </motion.div>
                 </div>

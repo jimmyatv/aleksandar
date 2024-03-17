@@ -42,8 +42,8 @@ const Portfolio = () => {
                         <motion.div
                             variants={fadeIn('up', 'easeOut', 0.7, 0.6)}
                         >
-                            <a target='_blank' href="https://jimmyatv.github.io/Ramen"><img src={project2} alt="" /></a>
-                            <p>Bootstrap and Vanilla JS</p>
+                            <a target='_blank' href="https://jimmyatv.github.io/SunDivisor/"><img src={project2} alt="" /></a>
+                            <p>Vanilla JS</p>
                         </motion.div>
 
                         <motion.div

@@ -30,7 +30,7 @@ const Header = () => {
   };
 
   const handleMenuItemClick = () => {
-    if (window.innerWidth <= 768) { 
+    if (window.innerWidth <= 768) {
       setMenuOpened(false);
     }
   };
@@ -49,7 +49,7 @@ const Header = () => {
       whileInView='show'
       variants={headerVariants}
       viewport={{ once: false, amount: 0.15 }}
-      className={`paddings ${css.wrapper}`} style={{boxShadow: headerShadow}} >
+      className={`paddings ${css.wrapper}`} style={{ boxShadow: headerShadow }} >
 
       <div className={`flexCenter innerWidth ${css.container}`}>
         <div className={css.name}>
@@ -57,7 +57,6 @@ const Header = () => {
           <a target='_blank' rel="noreferrer" href="https://github.com/jimmyatv"><FiGithub /></a>
           <a target='_blank' rel="noreferrer" href="mailto:rasic.alexandar@gmail.com"><GrMailOption /></a>
         </div>
-
         <ul
           ref={menuRef}
           style={getMenuStyles(menuOpened)}

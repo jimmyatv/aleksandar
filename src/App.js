@@ -9,7 +9,7 @@ import Footer from './components/Footer/Footer';
 
 const App = () => {
   return (
-    <div className={` bg-primary ${css.container}`}>
+    <div className={css.container}>
       <Header />
       <Hero />
       <AboutMe />
