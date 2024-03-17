@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import { fadeIn, staggerChildren, textVariant } from '../../utils/motion';
 import project1 from '../../assets/project1.png';
 import project2 from '../../assets/project2.png';
-import project3 from '../../assets/project3.png';
+import project4 from '../../assets/project4.png';
 
 const Portfolio = () => {
     return (
@@ -36,7 +36,7 @@ const Portfolio = () => {
                             variants={fadeIn('up', 'easeOut', 0.5, 0.6)}
                         >
                             <a target='_blank' href="https://jimmyatv.github.io/myBabySpa"><img src={project1} alt="" /></a>
-                            <p>Personal project in REACT</p>
+                            <p>React project</p>
                         </motion.div>
 
                         <motion.div
@@ -49,8 +49,8 @@ const Portfolio = () => {
                         <motion.div
                             variants={fadeIn('up', 'easeOut', 0.9, 0.6)}
                         >
-                            <a target='_blank' href="https://jimmyatv.github.io/OwnItAll-byAlex"><img src={project3} alt="" /></a>
-                            <p>Basic HTML and CSS</p>
+                            <a target='_blank' href="https://65f6e36a9a02ab83921c98ef--astonishing-cocada-ad4cc9.netlify.app"><img src={project4} alt="" /></a>
+                            <p>Vue project</p>
                         </motion.div>
                     </div>
                 </div>
