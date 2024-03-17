@@ -60,9 +60,8 @@
                     color: #61DBFB;
                 }
 
-                .devIcons span:last-child {
-                    font-size: 2.2rem;
-                    color: #42B883;
+                .devIcons span:last-child>img {
+                    width: 35px;
                 }
             }
         }

@@ -5,6 +5,48 @@ import about1 from '../assets/about1.jpg';
 import about2 from '../assets/about2.jpg';
 import about3 from '../assets/about3.jpg';
 import about4 from '../assets/about4.jpg';
+import project1 from '../assets/project1.png';
+import project2 from '../assets/project2.png';
+import project3 from '../assets/project3.png';
+import project4 from '../assets/project4.png';
+import project5 from '../assets/project5.png';
+import project6 from '../assets/project6.png';
+
+
+export const projects = [
+  {
+    name: 'React project, in progress...',
+    url: 'https://jimmyatv.github.io/myBabySpa',
+    img: project1
+  },
+  {
+    name: 'Essential Landing Page',
+    url: 'https://jimmyatv.github.io/SunDivisor',
+    img: project2
+  },
+  {
+    name: 'Vue project, expense tracker',
+    url: 'https://astonishing-cocada-ad4cc9.netlify.app',
+    img: project4
+  },
+  {
+    name: 'CRUD',
+    url: 'https://jimmyatv.github.io/CRUD',
+    img: project5
+  },
+  {
+    name: 'Vanila JS, grocery list',
+    url: 'https://jimmyatv.github.io/GroceryList',
+    img: project6
+  },
+  {
+    name: 'Basic HTML,CSS & JS',
+    url: 'https://jimmyatv.github.io/OwnItAll-byAlex',
+    img: project3
+  }
+]
+
+//? Company achivment
 export const projectExperience = [
   {
     name: "Number of projects and tasks",
@@ -26,12 +68,15 @@ export const projectExperience = [
   },
 ];
 
+//? My skills
 export const WhatDoIHelp = [
   "As a frontend developer, I can contribute to your team by crafting visually appealing and responsive user interfaces. My expertise in React, JavaScript, and SCSS ensures that I can create seamless and interactive web experiences.",
   
   "We leverage frontend development to create digital products, ensuring not only a visually appealing interface but also contributing to the transformation of businesses",
 ];
 
+
+//? Experiance
 export const workExp = [
   {
     place: "Selltico, Serbia",
@@ -56,6 +101,8 @@ export const workExp = [
   },
 ];
 
+
+//? Comments
 export const comments = [
   {
     name: "Frontend Developer",
@@ -83,6 +130,8 @@ export const comments = [
   },
 ];
 
+
+//? Slider
 export const sliderSettings = {
   dots: true,
   infinite: true,

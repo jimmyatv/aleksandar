@@ -3,9 +3,8 @@ import css from './Portfolio.module.scss';
 import { FaHeart } from "react-icons/fa";
 import { motion } from 'framer-motion';
 import { fadeIn, staggerChildren, textVariant } from '../../utils/motion';
-import project1 from '../../assets/project1.png';
-import project2 from '../../assets/project2.png';
-import project4 from '../../assets/project4.png';
+import { projects } from '../../utils/data';
+
 
 const Portfolio = () => {
     return (
@@ -32,26 +31,17 @@ const Portfolio = () => {
 
                     {/* Projects */}
                     <div className={css.cta}>
-                        <motion.div
-                            variants={fadeIn('up', 'easeOut', 0.5, 0.6)}
-                        >
-                            <a target='_blank' href="https://jimmyatv.github.io/myBabySpa"><img src={project1} alt="" /></a>
-                            <p>React project</p>
-                        </motion.div>
-
-                        <motion.div
-                            variants={fadeIn('up', 'easeOut', 0.7, 0.6)}
-                        >
-                            <a target='_blank' href="https://jimmyatv.github.io/SunDivisor/"><img src={project2} alt="" /></a>
-                            <p>Vanilla JS</p>
-                        </motion.div>
-
-                        <motion.div
-                            variants={fadeIn('up', 'easeOut', 0.9, 0.6)}
-                        >
-                            <a target='_blank' href="https://65f6e36a9a02ab83921c98ef--astonishing-cocada-ad4cc9.netlify.app"><img src={project4} alt="" /></a>
-                            <p>Vue project</p>
-                        </motion.div>
+                        {projects.map((project, idx) => {
+                            return (
+                                <motion.div key={idx}
+                                    variants={fadeIn('up', 'easeOut', idx * 0.2 + 0.5, 0.6)}>
+                                    <a target='_blank' rel='noopener noreferrer' title='Visit project' href={project.url}>
+                                        <img src={project.img} alt="" />
+                                    </a>
+                                    <p>{project.name}</p>
+                                </motion.div>
+                            )
+                        })}
                     </div>
                 </div>
             </div>

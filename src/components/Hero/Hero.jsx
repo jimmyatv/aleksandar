@@ -5,6 +5,7 @@ import { FaReact } from "react-icons/fa";
 import { RiVuejsFill } from "react-icons/ri";
 import { motion } from 'framer-motion';
 import { fadeIn, slideIn, staggerContainer } from '../../utils/motion'
+import vueIcon from '../../assets/vueIcon.png';
 
 const Hero = () => {
     return (
@@ -62,7 +63,7 @@ const Hero = () => {
                         className={css.certificate}>
                         <div className={css.devIcons}>
                             <span><FaReact /></span>
-                            <span> <RiVuejsFill /></span>
+                            <span><img src={vueIcon} alt="" /></span>
                         </div>
                         <span>React/Vue coder</span>
                         <span>Frontend developer</span>
