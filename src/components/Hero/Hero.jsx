@@ -28,7 +28,7 @@ const Hero = () => {
                         variants={fadeIn('left', 'tween', 0.4, 1)}
                     >
                         <strong>Talk is cheap. <br />
-                            Show me the code.</strong>
+                        Actions speak</strong>
                     </motion.span>
                 </div>
 
@@ -53,7 +53,7 @@ const Hero = () => {
                         <div className='primaryText'>5</div>
                         <div className='secondaryText'>
                             <div>Years</div>
-                            <div>Experiance</div>
+                            <div>Exp.</div>
                         </div>
                     </motion.div>
 
