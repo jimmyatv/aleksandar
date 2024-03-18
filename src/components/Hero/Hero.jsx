@@ -2,7 +2,6 @@ import React from 'react'
 import css from './Hero.module.scss';
 import Jimmy from '../../assets/mainPhoto2.png';
 import { FaReact } from "react-icons/fa";
-import { RiVuejsFill } from "react-icons/ri";
 import { motion } from 'framer-motion';
 import { fadeIn, slideIn, staggerContainer } from '../../utils/motion'
 import vueIcon from '../../assets/vueIcon.png';

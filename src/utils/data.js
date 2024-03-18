@@ -26,7 +26,7 @@ export const projects = [
   },
   {
     name: 'Vue project, expense tracker',
-    url: 'https://astonishing-cocada-ad4cc9.netlify.app',
+    url: 'https://jimmyatv-expensetracker.netlify.app',
     img: project4
   },
   {
