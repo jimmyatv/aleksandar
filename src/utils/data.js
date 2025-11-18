@@ -15,19 +15,24 @@ import project6 from '../assets/project6.png';
 
 export const projects = [
   {
-    name: 'React project, in progress...',
+    name: 'Little one baby spa',
     url: 'https://jimmyatv.github.io/myBabySpa',
     img: project1
   },
   {
-    name: 'Essential Landing Page',
-    url: 'https://jimmyatv.github.io/SunDivisor',
+    name: 'Extract contact with AI',
+    url: 'https://extract-contacts-with-ai.vercel.app',
     img: project2
   },
   {
     name: 'Vue project, expense tracker',
     url: 'https://jimmyatv-expensetracker.netlify.app',
     img: project4
+  },
+  {
+    name: 'City of Testville',
+    url: 'https://jimmyatv.github.io/city-of-testville',
+    img: project3
   },
   {
     name: 'CRUD',
@@ -38,11 +43,6 @@ export const projects = [
     name: 'Vanila JS & Pagination & local storage',
     url: 'https://jimmyatv.github.io/GroceryList',
     img: project6
-  },
-  {
-    name: 'Basic HTML,CSS & JS',
-    url: 'https://jimmyatv.github.io/OwnItAll-byAlex',
-    img: project3
   }
 ]
 
@@ -80,7 +80,7 @@ export const WhatDoIHelp = [
 export const workExp = [
   {
     place: "Selltico, Serbia",
-    tenure: "Feb 2023 - Present",
+    tenure: "May 2021 - Present",
     role: "Frontend developer",
     detail:
       "I'm a Frontend Developer based in Serbia, that loves to code and build products with a delightful user experience. Some things that make me excited are JavaScript, React.",
@@ -93,11 +93,11 @@ export const workExp = [
       "Since 2018, I've been deeply engaged in affiliate marketing as an Amazon Associate, consistently refining and optimizing strategies for sustained success. My active involvement in the program continues to this day.",
   },
   {
-    place: "Freelance, Cyprus",
-    tenure: "Apr 2019 - Feb 2023",
+    place: "Upwork, USA",
+    tenure: "Jun 2018 - Present",
     role: "React developer",
     detail:
-      "Since 2019, I have been working remotely as a freelance developer in Cyprus on a half-time basis, successfully completing projects and I have gained valuable experience.",
+      "Since 2018, I have been working remotely as a freelance developer on Upwork on a half-time basis, successfully completing a wide range of projects/tasks and gaining valuable experience.",
   },
 ];
 
